@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Hotlines - BlazeAlert Safety Education</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-toggle" id="mobileToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main Container -->
+    <div class="main-container show">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <i class="fas fa-fire-flame-curved"></i>
+                    <div class="logo-text">
+                        <h3>BlazeAlert</h3>
+                        <p>Safety Education</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="index.html" class="sidebar-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" class="sidebar-link"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="fire-safety.html" class="sidebar-link"><i class="fas fa-fire"></i> Fire Safety</a></li>
+                <li><a href="gas-safety.html" class="sidebar-link"><i class="fas fa-exclamation-triangle"></i> Gas Safety</a></li>
+                <li><a href="safety-guidelines.html" class="sidebar-link"><i class="fas fa-book"></i> Safety Guidelines</a></li>
+                <li><a href="emergency.html" class="sidebar-link active"><i class="fas fa-phone"></i> Emergency Hotlines</a></li>
+                <li><a href="prevention.html" class="sidebar-link"><i class="fas fa-lightbulb"></i> Prevention Tips</a></li>
+                <li><a href="equipment.html" class="sidebar-link"><i class="fas fa-tools"></i> Safety Equipment</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Page Header -->
+            <section class="page-header">
+                <h1><i class="fas fa-phone"></i> Emergency Hotlines & Contacts</h1>
+                <p>Quick access to emergency services and response procedures</p>
+            </section>
+
+            <!-- Primary Emergency Contacts -->
+            <section class="emergency-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 style="color: white;">Primary Emergency Numbers</h2>
+                        <p style="color: rgba(255,255,255,0.9);">Call these numbers immediately in case of fire or gas emergencies</p>
+                    </div>
+                    <div class="emergency-grid">
+                        <div class="emergency-card">
+                            <div class="emergency-icon" style="font-size: 3rem; margin-bottom: 1rem;">
+                                <i class="fas fa-fire-extinguisher"></i>
+                            </div>
+                            <h3>Fire Department</h3>
+                            <div class="emergency-number" style="font-size: 3rem; font-weight: bold; color: #ff6b35; margin: 1rem 0;">911</div>
+                            <p>For all fire emergencies, gas leaks, and rescue operations</p>
+                            <button class="btn btn-emergency" data-emergency="911" style="margin-top: 1rem;">
+                                <i class="fas fa-phone"></i> Call Now
+                            </button>
+                        </div>
+                        
+                        <div class="emergency-card">
+                            <div class="emergency-icon" style="font-size: 3rem; margin-bottom: 1rem;">
+                                <i class="fas fa-ambulance"></i>
+                            </div>
+                            <h3>Emergency Hotline</h3>
+                            <div class="emergency-number" style="font-size: 3rem; font-weight: bold; color: #ff6b35; margin: 1rem 0;">117</div>
+                            <p>General emergency assistance and coordination</p>
+                            <button class="btn btn-emergency" data-emergency="117" style="margin-top: 1rem;">
+                                <i class="fas fa-phone"></i> Call Now
+                            </button>
+                        </div>
+                        
+                        <div class="emergency-card">
+                            <div class="emergency-icon" style="font-size: 3rem; margin-bottom: 1rem;">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <h3>Bureau of Fire Protection</h3>
+                            <div class="emergency-number" style="font-size: 1.5rem; font-weight: bold; color: #ff6b35; margin: 1rem 0;">(02) 8426-0219</div>
+                            <p>Fire prevention, investigation, and emergency response</p>
+                            <button class="btn btn-emergency" data-emergency="(02) 8426-0219" style="margin-top: 1rem;">
+                                <i class="fas fa-phone"></i> Call BFP
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons" style="text-align: center; margin-top: 2rem;">
+                        <a href="https://blazealert.site" target="_blank" class="btn btn-blynk">
+                            <i class="fas fa-external-link-alt"></i> Open BlazeAlert App
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Emergency Banner -->
+            <section class="emergency-banner">
+                <div class="emergency-content">
+                    <div class="emergency-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="emergency-text">
+                        <h3>Remember: In Any Emergency</h3>
+                        <p><strong>Stay Calm • Call for Help • Follow Instructions • Stay Safe</strong></p>
+                    </div>
+                    <a href="safety-guidelines.html" class="btn btn-emergency">View Safety Guidelines</a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
